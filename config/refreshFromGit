@@ -1,0 +1,21 @@
+cd /var/www/examples.qcu.be/htdocs/
+mv webservices ../.
+rm -rf ./*
+rm -rf ./.git*
+rm -rf ./.travis.yml
+git clone https://github.com/qcubed/framework.git .
+mv ../webservices .
+rm build.sh
+
+chmod -R 777 includes/model
+chmod -R 777 includes/meta_controls
+chmod -R 777 includes/formbase_classes_generated
+chmod -R 777 includes/tmp
+chmod -R 777 drafts
+chmod -R 777 assets/_core/php/examples/image_label/cache
+
+mkdir includes/error_log
+
+cp /var/www/examples.qcu.be/config/configuration.inc.php /var/www/examples.qcu.be/htdocs/includes/configuration/
+
+mysql -protocol=tcp --host=localhost --database=qcubed-examples --user=qcubed-examples --password=HpL6jCawsyNYUfsy -e 'source ../htdocs/assets/_core/php/examples/mysql_innodb.sql'

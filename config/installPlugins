@@ -1,0 +1,191 @@
+#git clone --recursive https://github.com/qcubed/plugins.git plugins
+rm -rf plugins/*/releases/*
+
+cd /var/www/examples.qcu.be/config/plugins/DialogBoxes/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QAnyTimeBox/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QAutoCompleteTextBox/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QCaptchaTextBox/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QChromePhp/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QCollapsablePanel/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QCurl/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QDataGridExporterButton/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QDataTables/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QDateRangePicker/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QEmailTextBox/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QFCKEditor/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QFirebug/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QFlot/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QGoogleMap/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QJqScrollTo/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QListPanel/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QMaskTextBox/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QObjectDiff/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QPage/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QPhoneTextBox/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+#cd /var/www/examples.qcu.be/config/plugins/QProgressBar/tools
+#chmod +x ./make_package.sh
+#echo ' ' > 1
+#./make_package.sh < 1
+#rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QQConditionRange/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QReport/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QSelect2ListBox/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QSlidePaginator/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+# this plugin is for qcubed 1.y.z  versions
+# for 2.y.z versions it causes https://github.com/qcubed/framework/issues/177
+#cd /var/www/examples.qcu.be/config/plugins/QSlider/tools
+#chmod +x ./make_package.sh
+#echo ' ' > 1
+#./make_package.sh < 1
+#rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QSmsMessage/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QSortable/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QSwfObject/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+#cd /var/www/examples.qcu.be/config/plugins/QTabPanel/tools
+#chmod +x ./make_package.sh
+#echo ' ' > 1
+#./make_package.sh < 1
+#rm -rf 1
+#cd /var/www/examples.qcu.be/config/plugins/QVisualCalendar/tools
+#chmod +x ./make_package.sh
+#echo ' ' > 1
+#./make_package.sh < 1
+#rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QVisualEvent/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+cd /var/www/examples.qcu.be/config/plugins/QXmlRpc_Client/tools
+chmod +x ./make_package.sh
+echo ' ' > 1
+./make_package.sh < 1
+rm -rf 1
+
+cp /var/www/examples.qcu.be/config/plugins/*/releases/* /var/www/examples.qcu.be/htdocs/includes/tmp/plugin.install/
+#rm -rf /var/www/examples.qcu.be/config/plugins
+
+chmod 777 /var/www/examples.qcu.be/htdocs/includes/qcubed/plugins
+chmod 777 /var/www/examples.qcu.be/htdocs/includes/qcubed/plugins/plugin*
+
+chmod 777 /var/www/examples.qcu.be/htdocs/assets/plugins
+
+lynx -dump -accept-all-cookies http://examples.qcu.be/assets/_core/php/_devtools/plugin_unattended.php
+#lynx -dump -accept-all-cookies http://examples.qcu.be/assets/_core/php/_devtools/plugin_unattended.php > /dev/null
+
+chmod 755 /var/www/examples.qcu.be/htdocs/assets/plugins
+
+chmod 664 /var/www/examples.qcu.be/htdocs/includes/qcubed/plugins/plugin*
+chmod 755 /var/www/examples.qcu.be/htdocs/includes/qcubed/plugins
