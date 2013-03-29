@@ -1,0 +1,4 @@
+#!/bin/sh
+
+test -x /root/examples_update_silent.sh || exit 0
+/root/examples_update_silent.sh
