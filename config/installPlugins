@@ -1,4 +1,4 @@
-#git clone --recursive https://github.com/qcubed/plugins.git plugins
+git clone --recursive https://github.com/qcubed/plugins.git plugins
 rm -rf plugins/*/releases/*
 
 cd /var/www/examples.qcu.be/config/plugins/DialogBoxes/tools
