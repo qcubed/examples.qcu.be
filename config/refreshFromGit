@@ -13,6 +13,7 @@ chmod -R 777 includes/formbase_classes_generated
 chmod -R 777 includes/tmp
 chmod -R 777 drafts
 chmod -R 777 assets/_core/php/examples/image_label/cache
+chmod 777 includes/external_libraries/htmlpurifier/library/HTMLPurifier/DefinitionCache/Serializer
 
 mkdir includes/error_log
 
