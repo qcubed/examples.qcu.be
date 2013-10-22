@@ -2,7 +2,7 @@ echo 1
 cd /root
 rm -rf examples_scripts
 echo 2
-git clone https://github.com/olegabr/examples.qcu.be.git examples_scripts
+git clone https://github.com/qcubed/examples.qcu.be.git examples_scripts
 echo 3
 
 cp /var/www/examples.qcu.be/config/apache.conf.current examples_scripts/config/.
